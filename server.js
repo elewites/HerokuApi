@@ -3,7 +3,7 @@ const app = express();
 
 const PORT = process.env.PORT || 3001;
 
-app.get("/getdata", (req, res) => {
+app.get("/", (req, res) => {
   res.json({
     this: "is",
     the: "first",
